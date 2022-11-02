@@ -1,6 +1,138 @@
 ---
-title: "about"
-author: "Rahul Hosalli"
-date: "`r Sys.Date()`"
+title: "Academic and Professional Background"
 output: html_document
 ---
+
+## [Education]{.underline}
+
+**Columbia University, Mailman School of Public Health,** New York, NY
+
+­Master of Public Health in Epidemiology, expected May 2023
+
+­Certificate in Applied Biostatistics and Public Health Data Science
+
+­**Cornell University, College of Agriculture and Life Sciences**, Ithaca, NY
+
+­Bachelor of Science, *cum laude*, in Biology & Society, May 2019
+
+­Minor in Global Health
+
+## [Publications]{.underline}
+
+Kingery JR, Goyal P, **Hosalli R**, et al. HIV-Associated Myocardial Diastolic Dysfunction and Soluble ST2 Concentration in Tanzanian Adults: A Cross-Sectional Study. *J Infect Dis*. 2021 Jan 4;223(1):83-93. [ doi: 10.1093/infdis/jiaa328.](https://pubmed.ncbi.nlm.nih.gov/32526008/)
+
+## [Technical Skills]{.underline}
+
+R, SAS, RMarkdown, PCR, Plasmid prep, DNA extraction, CRISPR-Cas9, ELISA, LC-MS, Microsoft Office Suite, EndNote, Qualtrics
+
+## 
+
+## [Research Experience]{.underline}
+
+**Master's Student Practicum Researcher** May 2022- Current
+
+*Nour Makarem, PhD, Columbia University Mailman School of Public Health*
+
+New York, NY
+
+­Studied cardiovascular health differences between US adult immigrants and non-immigrants using nationally representative public health survey data.
+
+-   Developed scoring code in adherence to the new AHA 'Essential 8' construct of cardiovascular health guidelines in SAS.
+
+-   Analyzed adult NHANES 2013-2018 data using statistical methods designed for complex, multistage survey data, including survey-adjusted linear and logistic regression.
+
+-   Prepared high quality figures and graphics for future publication.
+
+ 
+
+**Research Assistant** July 2019- August 2021
+
+*Center for Global Health, Weill Cornell Medicine*
+
+­New York, NY
+
+­Studied HIV and tuberculosis in a developing context as part of a major academic medical center.
+
+-   ­Performed molecular biological experiments including ELISA and untargeted longitudinal metabolomics on human serum and urine samples and data cleaning and statistical analysis in R.
+
+-   Cleaned and analyzed data in R from a large COVID-19 seroprevalence study in Port-au-Prince, Haiti.
+
+-   Reviewed literature of tuberculosis recurrence and associated factors in developing countries and managed citations using EndNote for a U19 grant submission and assisted in the writing process for a wide variety of grants.
+
+-    Ensured regulatory compliance with the Weill Cornell IRB for numerous studies based in Haiti, India, and Tanzania.
+
+-   Managed registration and conference website for a planned symposium with hundreds of attendees using Qualtrics and Wix.
+
+**Health Policy Case Study** May 27 - June 25, 2018
+
+*Kilimanjaro Christian Medical University College*
+
+­Moshi, Tanzania
+
+­Developed a health policy case study with other Cornell students and Tanzanian medical students on childcare practices and early childhood development in Urban Moshi. Reviewed literature and interviewed key stakeholders such health care providers, maternal care workers, social workers, and mothers.
+
+ 
+
+**Research Assistant III** May 2017- May 2018
+
+*Goldberg Lab, Department of Molecular Biology and Genetics, Cornell University*
+
+­Ithaca, NY
+
+­Studied the role of *Drosophila* Protein Phosphatase 1 catalytic subunits in the cell cycle.
+
+-   ­Designed and implemented a complex gene knockout experiment using multiple CRISPR-Cas9 constructs.
+
+-   Analyzed genetic data using bioinformatic tools­
+
+**Volunteer Research Assistant** June -- August 2016
+
+*Memorial Sloan Kettering Cancer Center*
+
+­New York, NY
+
+## [Teaching Experience]{.underline}
+
+**Program Assistant** September 2018 - May 2019
+
+*Division of Nutritional Sciences, Cornell University*
+
+­Ithaca, NY
+
+­Global Health Summer Program - Tanzania Predeparture Seminar
+
+­Prepared a cohort of students to participate in a 2-month service-learning program in Moshi, Tanzania as part of the Cornell Global Health Summer Program.
+
+-   Developed curriculum and relevant reading lists in a team-based environment.
+
+-   Assessed student applications, conducted interviews, and facilitated selection of 2019 program cohort.
+
+-   Co-instructed lessons and discussions alongside program assistants and faculty.
+
+-   Graded student assignments and provided constructive feedback.
+
+-   Addressed student needs as they prepared for summer program.
+
+## [Volunteer Experience]{.underline}
+
+**Scaling Up Nutrition** June 25 - July 19, 2018
+
+*Jonas Kira, DNO*
+
+­Sanya Juu, Siha, Tanzania
+
+­A global NGO focused on eradicating malnutrition.
+
+-   ­Assisted with a vaccination, vitamin A supplementation and deworming campaign targeted at displaced populations in the Kilimanjaro Region of Tanzania.
+
+-   Reviewed literature on developing an eHealth platform for use by community health workers.
+
+## [Activities]{.underline}
+
+**Outdoor Odyssey**
+
+-   ­Diversity Chair and Backpacking Guide
+
+­**Prospect of Whitby Cooperative House**
+
+-   ­President of a democratic residential community of 20 students and acting as a liaison between the house and the university.

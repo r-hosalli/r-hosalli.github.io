@@ -1,10 +1,8 @@
 ---
 title: "Rahul Hosalli"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
-    theme: cerulean
+output: html_document
 ---
 
 # 
+
+Hi, I'm currently a second-year graduate student pursuing an MPH in Epidemiology at the Columbia Mailman School of Public Health in NYC. My interests are global health, HIV/AIDS and cardiovascular disease epidemiology. On this site you'll find
