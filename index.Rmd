@@ -1,5 +1,5 @@
 ---
-title: "In-Class Interactivity Lecture"
+title: "Rahul Hosalli"
 output: 
   html_document:
     toc: true
@@ -7,4 +7,4 @@ output:
     theme: cerulean
 ---
 
-# Hello
+# 
