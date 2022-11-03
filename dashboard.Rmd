@@ -1,11 +1,11 @@
 ---
-title: "dashboard"
-author: "Rahul Hosalli"
-date: "`r Sys.Date()`"
+title: "NY NOAA Dashboard"
 output: 
   flexdashboard::flex_dashboard:
+    theme: yeti
     orientation: columns
     vertical_layout: fill
+    source_code: embed
 ---
 
 ```{r dependencies, include=FALSE}
@@ -16,24 +16,65 @@ library(plotly)
 library(flexdashboard)
 ```
 
+```{r data_loading, include=FALSE}
+data("ny_noaa")
+noaa_df <- ny_noaa %>%
+  janitor::clean_names() %>%
+  
+  separate(date, into = c("year", "month", "date"), sep = "-") %>% 
+  
+  mutate(year = as.integer(year),
+         month = as.integer(month),
+         date = as.integer(date),
+         
+         tmax = as.integer(tmax)/10,
+         tmin = as.integer(tmin)/10,
+         prcp = prcp/10)
+## a sample is taken as the original dataset is large
+noaa_df_sam <-
+  noaa_df %>%
+  slice_sample(n=2000) %>%
+   mutate(month_name = factor(month.name[month], levels = month.name))
+```
+
 ## Column {data-width="650"}
 
-### Chart A
+### Average Maximum Temperature (°C) per Month, 1981-2010
 
 ```{r}
-
+noaa_df_sam %>% 
+  group_by(year, month_name) %>%
+  summarise(tmax_avg = mean(tmax, na.rm=T)) %>%
+  plot_ly(x = ~year, y = ~tmax_avg, type = "scatter", mode = "line", color = ~month_name, alpha = 0.5) %>%
+  layout(
+    xaxis = list(title = "Year"), 
+    yaxis = list(title = "Average Maximum Temperature (°C)"),
+    legend = list(title = list(text = '<b> Month </b>'))
+    )
 ```
 
 ## Column {data-width="350"}
 
-### Chart B
+### Snowfall (mm) per Month, 1981-2010
 
 ```{r}
-
+noaa_df_sam %>%
+  group_by(year, month) %>%
+  plot_ly(x = ~year, y = ~snow, type = "bar", color = ~month_name) %>%
+  layout(
+    xaxis = list(title = "Year"), 
+    yaxis = list(title = "Snowfall (mm)"),
+    legend = list(title = list(text = '<b> Month </b>'))
+    )
 ```
 
-### Chart C
+### Box Plot of Minimum Temperature (°C) by Month
 
 ```{r}
-
+noaa_df_sam %>%
+  plot_ly(y = ~tmin, type = "box", color = ~month_name) %>%
+  layout(
+    yaxis = list(title = "Minimum Temperature (°C)"),
+    legend = list(title = list(text = '<b> Month </b>'))
+    )
 ```
